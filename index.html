@@ -1,13 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Farm</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
-
 <body>
-    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm mt-3">
+                <div class="card">
+                    <div class="view overlay">
+                        <img class="card-img-top" src="./images/pineapple.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">pineapple</h4>
+                            <button class="bg-danger">choose</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card mt-3">
+                    <div class="view overlay">
+                        <img class="card-img-top" src="./images/grapes.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">grapes</h3>
+                        <button class="">choose</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card mt-3">
+                    <div class="view overlay">
+                        <img class="card-img-top" src="./images/lemonjpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">lemon</h3>
+                        <button class="">choose</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm">
+                <div class="card mt-3">
+                    <div class="view overlay">
+                        <img class="card-img-top" src="./images/passion.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">passion</h3>
+                        <button class="">choose</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="text-center" id="order">
+            <a href="" class="btn btn-primary btn-rounded my-3" data-toggle="modal"
+                data-target="#modalContactForm">Place your Order</a>
+        </div>
+
+    </div>
+    </div>
+    <hr>
+    <div class="container" id="table1">
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col" class="h3">Type of fruit</th>
+                        <th scope="col" class="h3">Quantity</th>
+                        <th scope="col" class="h3">Amount</th>
+                    </tr>
+                </thead>
+                <!-- <tbody>
+                    <tr>
+                <tbody id="table">
+
+                </tbody>
+                </tr>
+                </tbody> -->
+            </table>
+        </div>
+        <div class="text-center">
+            <button class="btn btn-success" id="checkout">Checkout</button>
+        </div>
+
+        <!-- <div class="show">
+            <p>checkout</p>
+            <div class="checkoutShow">
+
+            </div>
+        </div> -->
+        <div id="bill">
+            <div class="container pr-5">
+                <h3>Your Total Order is </h3>
+                <p><span id="billAmount"></span></p>
+
+            </div>
+        </div>
+
+        <button class="btn btn-warning" id="delivery">Delivery</button>
+        <button class="btn btn-warning" id="pick">Pick Up</button>
+
+        <!-- <div class="col-sm">
+            <div class="text-center">
+                <button class="btn btn-primary" id="home-continue">Continue</button>
+            </div>
+        </div>
+    </div> -->
+    </div>
+    <div id="deliverToLocation">
+        <div class="container pr-5">
+            <p><span id="totalBill"></span></p>
+            <p>Thank you for chossing us!</p>
+
+        </div>
+    </div>
+    </div>
+    <!--Body-->
+    <form id="fruits-form">
+        <div class="form-group">
+            <label for="type">Type</label>
+            <select class="form-control" id="type" required>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="">Amount of fruit in kg</label>
+            <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+        </div>
+        <div class="submit pb-3">
+            <button type="submit" id="form" class="btn btn-danger">Check Out</button>
+        </div>
+    </form>
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+    </form>
+    </div>
+    </div>
+    <!--/.Content-->
+    </div>
+    </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/scripts.js"></script>
+
 </body>
+
 </html>
