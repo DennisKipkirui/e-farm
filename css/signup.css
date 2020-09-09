@@ -1,0 +1,38 @@
+.container{
+    margin:0;
+    padding:0;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.image{
+    height:100vh;
+    background-image: url('https://images.pexels.com/photos/1656666/pexels-photo-1656666.jpeg?cs=srgb&dl=pexels-wendy-wei-1656666.jpg&fm=jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+section.form{
+    height:100vh;
+    width:50vh;
+    background-color: #54a244e3;
+}
+
+form{
+    padding:20%;
+    border:1px black solid;
+
+}
+
+label{
+    display: block;
+}
+
+input{
+    height:100%;
+}
