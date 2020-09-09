@@ -1,20 +1,27 @@
 .container-fluid{
-    background-color: #54A244;
+    background-color: #59A71F;
 
 }
 
 .one{
-    max-width: 600px;
+    /* max-width: 600px; */
     text-align: center;
     line-height: 20px;
-    margin-left: 20%;
-    margin-top: 5%;
-    color: whitesmoke;
+    
+    margin-top: 5%; 
+    width: 100%;
+    color: black;
+    /* background-image: url(..//images/chantal-garnier-oiIJ5jGijdQ-unsplash.jpg); */
 }
 
 strong{
     color: black;
 }
+
+.one img{
+    margin-left: 40%;
+}
+
 .one h2{
     font-size: 4em;
     font-family: "Allura";
@@ -22,8 +29,12 @@ strong{
 }
 .one p{
     font-family: "josefin sans";
-    font-weight: bolder;
-    font-size: larger;
+    font-weight: bold;
+    font-size: x-large;
+    max-width: 600px;
+    margin-left: 5px;
+    margin-top: 3px;
+    
 }
 .our h2{
     margin-left: 35%;
@@ -35,6 +46,8 @@ strong{
 
 .two{
     justify-content: center;
+    background-image: url(..//images/chantal-garnier-oiIJ5jGijdQ-unsplash.jpg);
+    background-attachment: fixed;
 }
 .team{
     background-color: white;
@@ -63,6 +76,8 @@ img{
     background-color: #54A244;
     
 }
+
+
 .whatwedo h2{
     margin-left: 40%;
     margin-top: 5%;
@@ -96,8 +111,10 @@ img{
     color: whitesmoke;
 }
 
+
+
 #contact{
-    
+    background-image: url(..//images/chantal-garnier-oiIJ5jGijdQ-unsplash.jpg);
     padding: 40px 5px;
   color: white;
   max-width: 100vw
@@ -111,6 +128,7 @@ img{
   form{
     width: 700px;
     max-width: 90%;
+    
   }
   ::placeholder{
     color: rgb(204, 204, 204);
