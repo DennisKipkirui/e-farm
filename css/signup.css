@@ -1,0 +1,67 @@
+.container-fluid{
+    margin:0;
+    padding:0;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.image{
+    height:100vh;
+    background-image: url('https://images.pexels.com/photos/1656666/pexels-photo-1656666.jpeg?cs=srgb&dl=pexels-wendy-wei-1656666.jpg&fm=jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+section.form{
+    position: relative;
+}
+
+form{
+    padding:20%;
+    background-color: #54a244e3;
+    height:100vh;
+    border:2px solid black;
+    border-radius: 5px;
+}
+
+#check{
+    display: inline;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+label{
+    display: block;
+}
+
+input{
+    width:100%;
+}
+
+.button{
+    margin-top:20px;
+}
+
+.indicates-required{
+    text-align: end;
+}
+
+.methods{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+
+img{
+    height:60px;
+    width:100px;
+    margin:1px; 
+}
