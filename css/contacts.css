@@ -1,0 +1,108 @@
+.container-fluid{
+   background-color: #54a244e3;
+    position:relative;
+}
+h1{
+    text-align: center;
+    padding-top:80px ;
+    width:300px;
+    margin-left:100px;
+    
+}
+
+hr{
+    width: 180px;
+    margin-left:162px;
+    margin-top: 30px;
+    border-top: 3px solid  #131212; 
+}
+
+form{
+    width:90vh;
+    margin-left:80px;  
+    padding:20px;
+    font-size: larger ;
+    
+}
+
+label{
+    display:none;
+}
+
+input{
+    width:100%;
+    height: 60px;
+    color:black;
+    background-color:rgba(255, 255, 255, 0.055);
+    border-bottom: black;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+
+::placeholder{
+    color:black
+}
+
+.button{
+    margin-top:20px;
+    border-radius: 5px;
+    width:130px;
+    text-align: center;
+    background-color: white;
+}
+
+.indicates-required{
+    text-align: end;
+}
+
+.slogan{
+    width:300px;
+    position: absolute;
+    top:20%;
+    left:60% 
+}
+
+.slogan i{
+    font-size:300px;
+}
+
+.slogan h4{
+    transform: rotate(-10deg);
+}
+
+.socials{
+    position: fixed;
+    top:89%;
+    bottom:0;
+    left:0;
+    right:0;
+    
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: white;
+    margin:0 auto;
+}
+
+.socials div{
+    border-right: 2px solid black;
+    text-align: center;
+    
+}
+
+.socials div i{
+    font-size:50px;
+    padding:20px;
+
+}
+
+a{
+     text-decoration: none;
+     color:black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #54a244e3;
+}
